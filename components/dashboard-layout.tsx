@@ -70,9 +70,13 @@ export function DashboardLayout({ children, userRole, userName }: DashboardLayou
             </button>
             <div className="flex items-center gap-2">
               <div className="w-8 h-8 rounded-lg bg-primary text-primary-foreground flex items-center justify-center font-bold">
-                U
+                <img
+      src="https://iset.uvt.tn/pluginfile.php/1/theme_lambda/logo/1756369462/iset_logo.png"
+      alt="ISET Logo"
+      className="w-10 h-10 object-contain"
+    />
               </div>
-              <h1 className="font-bold text-lg">UniManager</h1>
+              <h1 className="font-bold text-lg">ISET Manager</h1>
             </div>
           </div>
 
