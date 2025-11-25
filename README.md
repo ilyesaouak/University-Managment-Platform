@@ -130,54 +130,7 @@ Access the platform with these demo accounts:
 
 Or use the quick demo buttons on the login page.
 
-## Project Structure
 
-\`\`\`
-app/
-├── dashboard/
-│   ├── student/
-│   │   ├── page.tsx (Dashboard)
-│   │   ├── schedule/
-│   │   ├── absences/
-│   │   ├── messages/
-│   │   └── profile/
-│   ├── teacher/
-│   │   ├── page.tsx (Dashboard)
-│   │   ├── schedule/
-│   │   ├── absences/
-│   │   ├── messages/
-│   │   └── profile/
-│   ├── director/
-│   │   ├── page.tsx (Dashboard)
-│   │   ├── schedules/
-│   │   ├── absences/
-│   │   ├── analytics/
-│   │   ├── messages/
-│   │   └── profile/
-│   └── admin/
-│       ├── page.tsx (Dashboard)
-│       ├── users/
-│       ├── departments/
-│       ├── courses/
-│       ├── rooms/
-│       ├── schedules/
-│       ├── messages/
-│       ├── analytics/
-│       └── settings/
-├── api/
-│   └── auth/
-│       └── login/
-├── layout.tsx
-├── page.tsx (Redirect to login)
-└── globals.css
-components/
-├── ui/ (shadcn/ui components)
-├── dashboard-layout.tsx
-└── notification-center.tsx
-lib/
-├── auth.ts
-└── utils.ts
-\`\`\`
 
 ## Key Features by User Role
 
