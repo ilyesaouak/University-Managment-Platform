@@ -209,7 +209,7 @@ This project is part of ISET Tozeur educational curriculum.
 
 ## Contact
 
-For questions or support, contact the development team at [support email]
+For questions or support, contact me at elyes.sawak@gmail.com
 
 ---
 
